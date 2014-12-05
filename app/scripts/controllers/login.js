@@ -12,6 +12,7 @@ angular.module('sampleSublimeFolderApp')
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
-      'Karma'
+      'Karma',
+      'Added something else'
     ];
   });
