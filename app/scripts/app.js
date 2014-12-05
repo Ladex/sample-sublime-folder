@@ -27,6 +27,14 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl'
+      })
+      .when('/streamManagement', {
+        templateUrl: 'views/streammanagement.html',
+        controller: 'StreammanagementCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
